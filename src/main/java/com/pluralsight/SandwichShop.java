@@ -32,7 +32,7 @@ public class SandwichShop {
             discount = 0.10;
 
         } else if (age >= 65) {
-            discount = 0.20
+            discount = 0.20;
 
         }
         double finaLPrice = basePrice * (1 - discount);
